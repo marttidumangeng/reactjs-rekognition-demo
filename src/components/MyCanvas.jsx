@@ -5,7 +5,7 @@ import {
 } from './functions'
 
 class MyCanvas extends React.Component {
-
+ 
     constructor (props) {
         super(props)
         this.myCanvasRef = React.createRef()
@@ -28,7 +28,7 @@ class MyCanvas extends React.Component {
         const canvas = this.myCanvasRef.current
         const ctx = canvas.getContext('2d');
         
-        const { width, height } = getThumbSize(this.thumbWidth, this.thumbHeight, imageDetails.width, imageDetails.height);
+        const { width, height } = getThumbSize(this.thumbWidth, imageDetails.width, imageDetails.height);
         
         canvas.width = width; 
         canvas.height = height;

@@ -8,6 +8,10 @@ This project is a demo of using the AWS Rekognition Face Comparison feature and 
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install the required project dependencies.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
